@@ -696,8 +696,9 @@ header .breadcrumbs li {
 }
 
 .list2 li {
-	padding-bottom: 4px;
+	padding-bottom: 13px;
 	color: white;
+	font-size: 15px;
 }
 
 .list2 li a {
