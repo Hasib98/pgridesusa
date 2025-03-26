@@ -484,6 +484,7 @@ header .breadcrumbs li {
 }
 
 .pics img {
+	object-fit: cover;
 	display: block !important;
 	position: absolute;
 	width: 495px;
