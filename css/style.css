@@ -560,6 +560,7 @@ header .breadcrumbs li {
 	font-family: 'CalibriBold';
 	font-weight: normal;
 	margin-bottom: 25px;
+	line-height: 1.2;
 }
 
 #intro h2 span {
