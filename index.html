@@ -2,176 +2,465 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-  <script type="text/javascript" src="js/jquery-ui-1.8.5.custom.min.js"></script>
-  <title>PG Rides Inc.</title>
-  <link rel="icon" type="image/png" href="images/logoo.png">
-
-
-
-  <!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Rides</title>
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- START PAGE SOURCE -->
-  <header>
-    <nav>
-      <div class="container">
-        <div class="wrapper">
-          <h1><a href="https://pgridesusa.com/"><strong>PG Rides Inc.</strong></a></h1>
-          <ul>
-            <li><a href="https://pgridesusa.com/" class="current">home</a></li>
-            <li><a href="#" id="services-link"> services</a></li>
-            <!-- <li><a href="industries.html">industries</a></li> -->
-            <li><a href="#" id="contact-link">contacts</a></li>
-            <!-- <li><a href="privacy.html">privacy</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- <section class="adv-content">
-      <div class="container">
-        <ul class="breadcrumbs">
-          <li>Home</li>
-        </ul>
-        <form action="#" id="search-form">
-          <fieldset>
-            <input type="text" value="">
-            <input type="submit" value="">
-          </fieldset>
-        </form>
-      </div>
-    </section> -->
-  </header>
-  <section id="content">
-    <div class="top">
-      <div class="container">
-        <div class="clearfix">
-          <section id="gallery">
-            <div class="pics">
-              <img src="images/IMG_0281.jpg" alt="" width="495" height="329">
-              <img src="images/IMG_0279.jpg" alt="" width="495" height="329">
-              <img src="images/IMG_0286.jpg" alt="" width="495" height="329">
-              <img src="images/amb11.jpg" alt="" width="495" height="329">
-              <img src="images/amb4.jpg" alt="" width="495" height="329">
+    <header id="header">
+        <div class="container">
+            <div class="logo_container">
+                <img class="logo_image" src="images/icons/logosvg.svg" alt="">
+                <div class="logo_text">PG rides.Inc</div>
             </div>
-            <a href="#" id="prev"></a> <a href="#" id="next"></a>
-          </section>
-          <section id="intro">
-            <div class="inner">
-              <h2>Transportation<br />
-                And Non Emergency<span>Medical Transport</span></h2>
-              <p>PG Rides is your trusted partner for safe, comfortable, and professional Ambulette & Non-Emergency
-                Medical Transportation (NEMT) services. Serving New York and nationwide, we provide wheelchair
-                transportation, ambulatory transport, medical taxi, airport transfers, and more. Our certified drivers
-                ensure timely, reliable, and compassionate service, so you never miss a medical appointment, therapy
-                session, or essential trip. Wherever you need to go, PG Rides gets you there with care. </p>
-              <!-- <a href="#" class="extra-button">Read More</a> -->
+            <div class="hamburger" id="hamburger">
+                <img src="images/icons/hugeicons_menu-11.svg" alt="">
             </div>
-          </section>
-        </div>
-      </div>
-    </div>
-    <div class="middle" id="services-section">
-      <div class="container">
-        <div class="wrapper">
-          <div class="grid3 first">
-            <ul class="categories">
-              <li><a>Hospital Discharge Transportation</a></li>
-              <li><a>Doctor’s Appointment Transportation</a></li>
-              <li><a>Dialysis Transportation</a></li>
-              <li><a>Wheelchair & Ambulatory Transportation </a></li>
-              <li><a>Outpatient Surgery Transportation</a></li>
-              <li><a>Recreational & Social Outing Transportation</a></li>
-              <li><a>Airport & Long-Distance Transportation</a></li>
-              <li><a>Prescription & Grocery Pick-Up </a></li>
-              <li><a>Emergency Room Pick-Up & Post-Treatment Transport </a></li>
+            <ul class="navLinks" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-          </div>
-          <div class="grid9">
-            <h2>Safe, Reliable, and Accessible Transportation Nationwide</h2>
-            <p>At PG Rides, we believe mobility should never be a barrier. With years of experience in Ambulette and
-              Non-Emergency Medical Transportation (NEMT), we proudly serve New York and the entire USA. Our
-              DOT-certified drivers and trained staff ensure safe, comfortable, and on-time transportation for medical
-              appointments, hospital discharges, dialysis, rehab, airport transfers, and more. Whether you need
-              wheelchair-accessible transport, ambulatory services, or medical taxi assistance, we are committed to
-              providing compassionate and professional care every step of the way. Your safety and comfort are our
-              priority—wherever you need to go, PG Rides is here for you. </p>
-            <section class="images">
-              <figure><a href="#"><img src="images/img1.jpg" alt="" width="200" height="100"></a></figure>
-              <figure><a href="#"><img src="images/img2.jpg" alt="" width="200" height="100"></a></figure>
-              <figure><a href="#"><img src="images/img3.jpg" alt="" width="200" height="100"></a></figure>
-            </section>
-          </div>
+            <div class="call_us">
+                <div class="phone_number">+ (917) 569-4932</div>
+                <!-- <div class="call_us_btn">Call us now</div> -->
+                <a class="call_us_btn" href="tel:+9175694932">Call us now</a>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="bottom" id="contact-section">
-      <div class="container">
-        <div class="wrapper">
-          <div class="grid3 first">
-            <!-- <h3>Database</h3>
-            <ul class="list1">
-              <li><a href="#">Real Application Clusters</a></li>
-              <li><a href="#">Database Security</a></li>
-              <li><a href="#">Secure Enterprise Search</a></li>
-            </ul> -->
-          </div>
-          <div class="grid3">
-            <h3>Contact</h3>
-            <ul class="list2">
-              <li>Phone: (917) 569-4932</li>
-              <li>Phone: (347)-346-1829</li>
-              <li>Email: info@pgridesinc.com</li>
-              <li>Email: pgguptabase@gmail.com</li>
-              <li>Web: www.pgridesusa.com</li>
-              <li>Fax: 877-497-5030 </li>
-            </ul>
-          </div>
-          <div class="grid3">
-            <h3>Address</h3>
-            <ul class="list2">
-              <li>37-07, 74th Street, Suite #1 (2nd Fl.)
-                Jackson Heights, NY 11372</li>
-
-            </ul>
-          </div>
-          <div class="grid3">
-            <div id="datepicker"></div>
-          </div>
+    </header>
+    <div id="overlay"></div>
+    <section class="section_hero">
+        <!-- <img src="images/hero_1.png" alt=""> -->
+        <div class="container">
+            <div class="hero_content">
+                <h2 class="hero_subtitle">Ambulette service</h2>
+                <h1 class="heading hero_title ">Find The Best Non Emergency Vechicle
+                    For your Service</h1>
+                <div class="call_us">
+                    <div class="phone_number">+ (917) 569-4932</div>
+                    <a class="call_us_btn" href="tel:+9175694932">Call us now</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="footerlink">
-      <p class="lf">Copyright &copy; 2025 <a href="#">www.pgridesusa.com</a> - All Rights Reserved</p>
+    </section>
 
-      <div style="clear:both;"></div>
-    </div>
-  </footer>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $('.pics').cycle({
-        fx: 'toss',
-        next: '#next',
-        prev: '#prev'
-      });
-      $('#datepicker').datepicker({
-        inline: true
-      });
-    });
-  </script>
-  <script type="text/javascript" src="js/custom.js"></script>
+    <section class="transportation">
+        <div class="container">
+            <div class="heading">Transportation Tailored to Your Needs</div>
+            <p class="heading_description">Get personalized and dependable transportation that fits your specific needs
+                and schedule.</p>
+            <div class="cards_container">
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/iconoir_clock.svg" alt="" class="icon">
+                    </div>
+                    <h2> Reliable & On-Time</h2>
+                    <p>Count on us for punctual pickups and drop-offs, ensuring you reach your destination on schedule,
+                        every time.</p>
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/pepicons-pencil_map.svg" alt="" class="icon">
+                    </div>
+                    <h2>Serving You Nationwide</h2>
+                    <p>Whether you're in New York or anywhere across the USA, PG Rides USA offers dependable
+                        transportation
+                        services you can trust.</p>
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/lsicon_shield-outline.svg" alt="" class="icon">
+                    </div>
+                    <h2>Safety First Approach</h2>
+                    <p>Our DOT-certified drivers and regularly maintained vehicles ensure a secure and reliable
+                        transportation experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_journey">
+        <div class="container">
+            <div class="image_container">
+                <img src="images/img_journey.png" alt="">
+            </div>
+
+            <div class="journey_container">
+                <h1 class="heading">Your Journey, Our Priority: Safe & Reliable Transportation</h1>
+                <p>Get where you need to go with comfort, dignity, and peace of mind. Serving
+                    your transportation needs
+                    with care.</p>
+
+                <ul>
+
+                    <li class="list_container">
+
+                        <div class="icon_container">
+                            <img src="images/icons/ion_car-outline.svg" alt="">
+                        </div>
+                        <div class="content_container">
+                            <h2 class="list_heading">Professional & Caring Support</h2>
+                            <p class="list_description"> Comfortable, accessible rides with caring and supportive
+                                assistance.</p>
+                        </div>
+
+                    </li>
+                    <li class="list_container">
+
+                        <div class="icon_container">
+                            <img src="images/icons/carbon_cabin-care.svg" alt="">
+                        </div>
+
+                        <div>
+                            <h2 class="list_heading">On-Time & Dependable Service</h2>
+                            <p class="list_description">Dependable transportation services you can trust, nationwide.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="list_container">
+
+                        <div class="icon_container">
+                            <img src="images/icons/mingcute_time-line.svg" alt="">
+                        </div>
+                        <div>
+
+                            <h2 class="list_heading">Easy Booking & Assistance</h2>
+                            <p class="list_description">Easy booking and dedicated support for your transportation
+                                needs. </p>
+                        </div>
+
+                    </li>
+                    <li class="list_container">
+
+                        <div class="icon_container">
+                            <img src="images/icons/bi_telephone.svg" alt="">
+                        </div>
+
+                        <div>
+                            <h2 class="list_heading">Comfortable & Accessible Rides</h2>
+                            <p class="list_description">Reliable, on-time transportation to get you
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
-  <!-- END PAGE SOURCE -->
+    <section class="section_destination">
+        <div class="container">
+            <div class="destination_content">
+                <h1 class="heading">Making Every Destination Accessible</h1>
+                <p>We understand the challenges of mobility. Our services are designed to ensure everyone can travel
+                    comfortably and safely, regardless of physical limitations.</p>
+
+                <ul>
+                    <li class="list_container">
+                        <div class="icon_container"><img src="images/icons/tabler_wheelchair.svg" alt=""></div>
+                        <div class="list_text">Accessible Transportation Solutions</div>
+                    </li>
+                    <li class="list_container">
+                        <div class="icon_container"><img src="images/icons/mdi_compass-outline.svg" alt=""></div>
+                        <div class="list_text">Reaching More Places</div>
+                    </li>
+                    <li class="list_container">
+                        <div class="icon_container"><img src="images/icons/fluent_person-support-32-regular.svg" alt="">
+                        </div>
+                        <div class="list_text">Dedicated Support</div>
+                    </li>
+                    <li class="list_container">
+                        <div class="icon_container"><img src="images/icons/system-uicons_door-alt.svg" alt=""></div>
+                        <div class="list_text"> Opening Doors to Independence</div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="image_group">
+                <div class="left">
+                    <img src="images/destination_1.png" alt="Tall Image">
+                </div>
+                <div class="right">
+                    <img src="images/destination_2.png" alt="Top Small Image">
+                    <img src="images/destination_3.png" alt="Bottom Small Image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section_featured">
+        <div class="container">
+            <h1 class="heading">Featured Transportation Options</h1>
+            <p> Explore some of our most requested and highly-rated transportation services.</p>
+            <div class="feature_card_container">
+                <div class="card">
+                    <img src="images/featured_1.png" alt="">
+                    <div class="info_container">
+                        <h3>Comfortable Medical Transport</h3>
+                        <div class="location_group">
+                            <img src="images/icons/fi-rr-marker.svg" alt="">
+                            <p class="address">Canada, United State</p>
+                        </div>
+                        <div class="price">$2,32,120</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/featured_2.png" alt="">
+                    <div class="info_container">
+                        <h3>Reliable Transfers</h3>
+                        <div class="location_group">
+                            <img src="images/icons/fi-rr-marker.svg" alt="">
+                            <p class="address">Nationwide Service Available</p>
+                        </div>
+                        <div class="price">$2,32,120</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/featured_3.png" alt="">
+                    <div class="info_container">
+                        <h3>Wheelchair Transport</h3>
+                        <div class="location_group">
+                            <img src="images/icons/fi-rr-marker.svg" alt="">
+                            <p class="address"> Serving Your Community</p>
+                        </div>
+                        <div class="price">$2,32,120</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_choose">
+        <div class="container">
+            <h1 class="heading">Why Choose PG Rides</h1>
+            <p>Experience the comfort, reliability, and care that sets our transportation services apart.</p>
+            <div class="choose_card_container">
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/lsicon_shield-outline.svg" alt="" class="icon">
+                    </div>
+                    <h2>Safety & Reliability</h2>
+                    <p> Certified drivers and well-maintained
+                        vehicles ensure a secure journey.</p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/proicons_airplane.svg" alt="" class="icon">
+                    </div>
+                    <h2>Long Transportation</h2>
+                    <p>Reliable and comfortable transport
+                        for journeys across longer distances. </p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/solar_map-linear.svg" alt="" class="icon">
+                    </div>
+                    <h2>Wide Service Area</h2>
+                    <p>Serving New York and beyond
+                        with dependable transportation.</p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/tabler_clock.svg" alt="" class="icon">
+                    </div>
+                    <h2>Punctuality Guaranteed</h2>
+                    <p>We value your time and strive for
+                        on-time pickups and drop-offs.</p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/solar_phone-outline.svg" alt="" class="icon">
+                    </div>
+                    <h2>Easy Booking</h2>
+                    <p>Request a ride or get assistance with ease.</p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+                <div class="card">
+                    <div class="icon_container">
+                        <img src="images/icons/pepicons-pencil_face-smiling.svg" alt="" class="icon">
+                    </div>
+                    <h2> Comfort & Care</h2>
+                    <p> Travel in comfort with our
+                        friendly and professional team.</p>
+                    <!-- <p><a href="#">Learn More</a></p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_trusted">
+        <div class="container">
+            <div class="content_container">
+                <div class="subtitle">WHO WE ARE</div>
+                <h1 class="heading title">Your Trusted Partner for
+                    Reliable Transportation</h1>
+                <p>Committed to providing safe, comfortable, and dependable rides for every journey.</p>
+                <div class="number_container">
+                    <div class="item">
+                        <div class="icon_container">
+                            <img src="images/icons/passanger.svg" alt="">
+                        </div>
+                        <div class="data">
+                            <h1 class="heading count">135</h1>
+                            <p>Satisfied Passengers</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon_container">
+                            <img src="images/icons/tick.svg" alt="">
+                        </div>
+                        <div class="data">
+                            <h1 class="heading count">509</h1>
+                            <p>Verified & Safe Trips</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="call_us_btn" href="tel:+965456456">Call us now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_contact">
+        <div class="container">
+            <h1 class="heading">Need a Ride? Contact Us Today!</h1>
+            <p>We're ready to provide you with safe, reliable, and comfortable transportation.</p>
+            <ul>
+                <li><span>Easy Booking Process:</span> Get a quote or schedule your ride quickly and conveniently.</li>
+                <li><span>Dedicated Customer Support:</span> Our friendly team is here to assist you with all your
+                    transportation needs.</li>
+            </ul>
+
+            <div class="feature_address">
+                <div class="image_container">
+                    <img src="images/contact_image.png" alt="">
+                </div>
+                <div class="address_container">
+                    <ul>
+                        <li class="data">
+                            <div class="icon_container">
+                                <img src="images/icons/bitcoin-icons_globe-outline.svg" alt="">
+                            </div>
+                            <div class="text">www.pgridesusa.com</div>
+                        </li>
+                        <li class="data">
+                            <div class="icon_container">
+                                <img src="images/icons/email.svg" alt="">
+                            </div>
+                            <div class="text">info@pgridesinc.com</div>
+                        </li>
+                        <li class="data">
+                            <div class="icon_container">
+                                <img src="images/icons/email.svg" alt="">
+                            </div>
+                            <div class="text"> pgguptabase@gmail.com</div>
+                        </li>
+                        <li class="data">
+                            <div class="icon_container"><img src="images/icons/property-location.svg" alt=""></div>
+                            <div class="text">37-07, 74th Street, Suite #1 (2nd Fl.) Jackson Heights, NY 11372</div>
+                        </li>
+                        <li class="data">
+                            <div class="icon_container"><img src="images/icons/mobile-chat.svg" alt=""></div>
+                            <div class="text">+ (917) 569-4932</div>
+                        </li>
+                        <li><a class="call_us_btn" href="tel:+9175694932">Call us now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_agents">
+        <div class="container">
+            <h2 class="subtitle">Experties is here</h2>
+            <h1 class="heading">Our Exclusive Agents</h1>
+            <div class="agents_card_container">
+                <div class="agent_card">
+                    <div class="image_container">
+                        <img src="images/images_pg_feature 10.png" alt="">
+                    </div>
+                    <h2 class="agent_name">Mac. Willium</h2>
+                    <p>Medical Transport Specialist</p>
+                    <a href="tel:+9175694932" class="phone_number">Call: + (917) 569-4932</a>
+                </div>
+                <div class="agent_card">
+                    <div class="image_container">
+                        <img src="images/images_pg_feature 9.png" alt="">
+                    </div>
+                    <h2 class="agent_name">Elly</h2>
+                    <p>Customer Service Manager</p>
+                    <a href="tel:+3473461829" class="phone_number">Call: +(347)-346-1829</a>
+                </div>
+
+                <div class="agent_card">
+                    <div class="image_container">
+                        <img src="images/images_pg_feature 8.png" alt="">
+                    </div>
+                    <h2 class="agent_name">Hasib Khan</h2>
+                    <p>Operation Manager</p>
+                    <a href="tel:+9175694932" class="phone_number">Call: + (917) 569-4932</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_col">
+                <div class="company_descripition">
+                    <div class="logo_container">
+                        <img class="logo_image" src="images/icons/logosvg.svg" alt="">
+                        <div class="logo_text">PG rides.Inc</div>
+                    </div>
+                    <ul>
+                        <li>Your trusted partner for safe, reliable, and comfortable transportation services.</li>
+                        <li>
+                            <div class="social_icon_container">
+                                <a href="#"><img src="images/icons/ic_baseline-facebook.svg" alt=""></a>
+                                <a href="#"><img src="images/icons/ri_instagram-fill.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_col">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>About Us</li>
+                    <li><a href="#"></a>Contact Us</li>
+                    <li><a href="#"></a>Book a Ride</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#"></a>(917) 569-4932 , (347)-346-1829</li>
+                    <li><a href="#"></a>info@pgridesinc.com</li>
+                    <li><a href="#"></a>37-07, 74th Street, Suite #1 (2nd Fl.) Jackson Heights, NY 11372 Us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
 </body>
 
 </html>
