@@ -11,6 +11,10 @@
     /* border: 1px solid red; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --orange-color: #FF5A3C;
     --orange-light: #FCBAAE;
@@ -103,6 +107,13 @@ header {
 
 section {
     padding: 80px 0;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 40px 0;
+    }
+
 }
 
 header {
@@ -219,7 +230,7 @@ header .hamburger {
 
     header .container .hamburger {
         position: absolute;
-        right: 0;
+        right: 20px;
         display: block;
     }
 
@@ -388,13 +399,21 @@ header .hamburger {
     width: 361px;
     height: 341px;
     border-radius: 20px;
-    background: white;
+    /* background: white; */
+    background: var(--orange-color);
+    color: var(--text-white);
+
+
     padding: 18px;
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.cards_container .card:nth-child(2) {
+.cards_container .card p {
+    color: var(--text-white);
+}
+
+/* .cards_container .card:nth-child(2) {
     background: var(--orange-color);
 }
 
@@ -402,7 +421,7 @@ header .hamburger {
 .cards_container .card:nth-child(2) p {
     color: var(--text-white);
 }
-
+ */
 
 
 
@@ -443,6 +462,10 @@ header .hamburger {
 
     .transportation .heading_description {
         font-size: 14px;
+    }
+
+    .cards_container {
+        gap: 20px;
     }
 
     .cards_container .card {
@@ -533,6 +556,7 @@ header .hamburger {
 
     .journey_container>ul {
         margin: auto;
+        max-width: 100%;
         width: 312px;
     }
 
@@ -784,6 +808,12 @@ header .hamburger {
         text-align: center;
         font-size: 14px;
     }
+
+    .feature_card_container .card .info_container {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+    }
 }
 
 /* --------why_choose------ */
@@ -857,6 +887,14 @@ header .hamburger {
         text-align: center;
         font-size: 14px;
     }
+
+    .choose_card_container .card {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+
 }
 
 /* ------------ trusted ------------- */
@@ -866,6 +904,7 @@ header .hamburger {
     height: 600px;
     overflow: hidden;
     background-image: url('images/ambulette_on_highway.png');
+    /* background-image: url('images/trusted_section.png'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1078,6 +1117,7 @@ header .hamburger {
 }
 
 .feature_address .address_container {
+    max-width: 100%;
     width: 433px;
 }
 
@@ -1096,6 +1136,12 @@ header .hamburger {
 
 .feature_address .address_container .data .text {
     font-size: 20px;
+
+}
+
+.feature_address .address_container .data .text a {
+    text-decoration: none;
+    color: var(--text-primary);
 }
 
 
@@ -1135,6 +1181,16 @@ header .hamburger {
     .feature_address .address_container {
         width: 100%;
     }
+
+    .feature_address .address_container .data .icon_container {
+        margin-right: 20px;
+    }
+
+    .feature_address .address_container .data .text {
+        font-size: 14px;
+        align-items: center;
+    }
+
 }
 
 
