@@ -473,6 +473,11 @@ header .hamburger {
         width: 296px;
     }
 
+    .cards_container .card .icon_container {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
     .cards_container .card h2 {
         font-size: 20px;
     }
@@ -480,6 +485,8 @@ header .hamburger {
     .cards_container .card p {
         font-size: 12px;
     }
+
+
 }
 
 
