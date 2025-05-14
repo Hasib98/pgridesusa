@@ -328,8 +328,8 @@ header .hamburger {
 .hero_subtitle {
     font-family: var(--permanent-marker);
     font-weight: 400;
-    font-size: 48px;
-    color: var(--orange-color);
+    font-size: 66px;
+    color: #ff0000;
     margin-bottom: 16px;
 }
 
