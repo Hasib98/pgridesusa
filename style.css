@@ -293,11 +293,11 @@ header .hamburger {
 /* Background Slideshow Keyframes */
 @keyframes slideShow {
     0% {
-        background-image: url('images/hero/hero_1-min.png');
+        background-image: url('images/hero/hero_2-min.png');
     }
 
     25% {
-        background-image: url('images/hero/hero_2-min.png');
+        background-image: url('images/hero/hero_6-min.png');
     }
 
     50% {
@@ -311,6 +311,7 @@ header .hamburger {
     100% {
         background-image: url('images/hero/hero_5-min.png');
     }
+
 }
 
 
@@ -911,7 +912,6 @@ header .hamburger {
     height: 600px;
     overflow: hidden;
     background-image: url('images/ambulette_on_highway.png');
-    /* background-image: url('images/trusted_section.png'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
